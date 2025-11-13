@@ -78,7 +78,7 @@ const Footer = () => {
               size="lg"
               className="bg-orange-100 border-orange-500 text-orange-700 hover:bg-accent hover:text-accent-foreground"
             >
-              Save the Date 📅
+              Save the Date 
             </Button>
           </motion.div>
 
