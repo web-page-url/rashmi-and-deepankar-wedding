@@ -5,14 +5,14 @@ import { Button } from "./ui/button";
 
 const EventDetails = () => {
   const openMap = () => {
-    window.open("https://maps.app.goo.gl/Vc8fYtoZ9bhpfjJi8", "_blank");
+    window.open("https://maps.app.goo.gl/1txX5vX9TdXyHPco8?g_st=aw", "_blank");
   };
 
   const addToCalendar = () => {
     const event = {
       title: "Rashmi & Deepankar Wedding Celebration",
       description: "Join us in celebrating the beautiful love story of Rashmi and Deepankar. Save the date for our wedding celebration!",
-      location: "Gymkhana Club, Sector-8, Karnal, Haryana",
+      location: "Celebration Garden, GT Road, Karnal, Haryana",
       start: "2025-11-23T11:00:00",
       end: "2025-11-23T23:59:00",
     };
@@ -196,10 +196,10 @@ const EventDetails = () => {
               <MapPin className="w-6 h-6 text-purple-500" />
               <div className="text-center">
                 <p className="text-xl md:text-2xl font-bold text-gray-800 dark:text-gray-200 mb-1">
-                  Gymkhana Club
+                  Celebration Garden
                 </p>
                 <p className="text-lg text-gray-600 dark:text-gray-400">
-                  Sector-8, Karnal, Haryana
+                  GT Road, Karnal, Haryana
                 </p>
               </div>
             </div>

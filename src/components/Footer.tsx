@@ -7,7 +7,7 @@ const Footer = () => {
     const event = {
       title: "Rashmi & Deepankar Wedding Celebration",
       description: "Join us in celebrating the beautiful love story of Rashmi and Deepankar. Save the date for our wedding celebration!",
-      location: "Gymkhana Club, Sector-8, Karnal, Haryana",
+      location: "Celebration Garden, GT Road, Karnal, Haryana",
       start: "2025-11-23T11:00:00",
       end: "2025-11-23T23:59:00",
     };
