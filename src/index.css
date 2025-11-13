@@ -1,0 +1,117 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    /* Romantic Wedding Color Palette */
+    --background: 30 50% 98%; /* Ivory Charm */
+    --foreground: 245 35% 25%; /* Midnight Sapphire (darker) */
+
+    --card: 0 0% 100%;
+    --card-foreground: 245 35% 25%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 245 35% 25%;
+
+    /* Rose Blush - Primary romantic pink */
+    --primary: 345 100% 65%; /* #FF4D88 */
+    --primary-foreground: 0 0% 100%;
+    --primary-glow: 345 100% 75%;
+
+    /* Midnight Sapphire - Deep romantic blue */
+    --secondary: 245 35% 25%; /* #2A2E5B */
+    --secondary-foreground: 0 0% 100%;
+
+    /* Petal Mint - Fresh green balance */
+    --muted: 150 60% 85%; /* #B2F2D0 */
+    --muted-foreground: 245 35% 35%;
+
+    /* Sunset Gold - Warm accent */
+    --accent: 45 100% 52%; /* #FFC107 */
+    --accent-foreground: 245 35% 25%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 345 40% 90%;
+    --input: 345 40% 95%;
+    --ring: 345 100% 65%;
+
+    --radius: 1rem;
+
+    /* Gradients */
+    --gradient-romantic: linear-gradient(135deg, hsl(345 100% 65%), hsl(245 35% 45%));
+    --gradient-sunset: linear-gradient(135deg, hsl(345 100% 65%), hsl(45 100% 52%));
+    --gradient-dreamy: linear-gradient(180deg, hsl(245 35% 25%), hsl(245 35% 35%));
+    
+    /* Shadows */
+    --shadow-romantic: 0 10px 40px -10px hsl(345 100% 65% / 0.3);
+    --shadow-glow: 0 0 30px hsl(345 100% 75% / 0.4);
+    
+    /* Animations */
+    --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground overflow-x-hidden;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+}
+
+@layer utilities {
+  .text-gradient-romantic {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary;
+  }
+
+  .text-gradient-sunset {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary to-accent;
+  }
+
+  .animate-float {
+    animation: float 3s ease-in-out infinite;
+  }
+
+  .animate-pulse-slow {
+    animation: pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+
+  .animate-heart-beat {
+    animation: heartbeat 1.5s ease-in-out infinite;
+  }
+
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+  }
+
+  @keyframes heartbeat {
+    0%, 100% {
+      transform: scale(1);
+    }
+    10%, 30% {
+      transform: scale(1.1);
+    }
+    20%, 40% {
+      transform: scale(1);
+    }
+  }
+}
