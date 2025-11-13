@@ -48,12 +48,12 @@ const Hero = () => {
       {/* Background Image */}
       <picture className="absolute inset-0">
         {/* Large screens */}
-        <source media="(min-width: 1024px)" srcSet="/hero-section.jpeg" />
+        <source media="(min-width: 1024px)" srcSet="/rashmi-wed-2.jpeg" />
         {/* Medium screens */}
-        <source media="(min-width: 768px)" srcSet="/hero-section.jpeg" />
+        <source media="(min-width: 768px)" srcSet="/rashmi-wed-2.jpeg" />
         {/* Small screens */}
         <img
-          src="/hero-section.jpeg"
+          src="/rashmi-wed-2.jpeg"
           alt="Rashmi & Deepankar - Our Forever Begins"
           className="w-full h-full object-cover object-center"
           loading="eager"

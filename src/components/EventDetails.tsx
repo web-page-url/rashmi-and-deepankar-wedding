@@ -45,7 +45,7 @@ const EventDetails = () => {
               <CarouselItem>
                 <div className="relative overflow-hidden rounded-2xl shadow-2xl">
                   <img
-                    src="/rashmi-1.jpeg"
+                    src="/rashmi-wed-1.jpeg" 
                     alt=" - Memory 1"
                     className="w-full h-64 md:h-80 object-cover"
                   />
@@ -54,7 +54,7 @@ const EventDetails = () => {
               <CarouselItem>
                 <div className="relative overflow-hidden rounded-2xl shadow-2xl">
                   <img
-                    src="/rashmi-2.jpeg"
+                    src="/rashmi-wed-2.jpeg"
                     alt=" - Memory 2"
                     className="w-full h-64 md:h-80 object-cover"
                   />
@@ -63,7 +63,7 @@ const EventDetails = () => {
               <CarouselItem>
                 <div className="relative overflow-hidden rounded-2xl shadow-2xl">
                   <img
-                    src="/rashmi-3.jpeg"
+                    src="/rashmi-wed-3.jpeg"
                     alt=" - Memory 3"
                     className="w-full h-64 md:h-80 object-cover"
                   />
@@ -72,7 +72,7 @@ const EventDetails = () => {
               <CarouselItem>
                 <div className="relative overflow-hidden rounded-2xl shadow-2xl">
                   <img
-                    src="/rashmi-4.jpeg"
+                    src="/rashmi-wed-4.jpeg"
                     alt=" - Memory 4"
                     className="w-full h-64 md:h-80 object-cover"
                   />
@@ -81,12 +81,45 @@ const EventDetails = () => {
               <CarouselItem>
                 <div className="relative overflow-hidden rounded-2xl shadow-2xl">
                   <img
-                    src="/rashmi-5.jpeg"
+                    src="/rashmi-wed-5.jpeg"
                     alt=" - Memory 5"
                     className="w-full h-64 md:h-80 object-cover"
                   />
                 </div>
               </CarouselItem>
+
+              <CarouselItem>
+                <div className="relative overflow-hidden rounded-2xl shadow-2xl">
+                  <img
+                    src="/rashmi-wed-6.jpeg"
+                    alt=" - Memory 5"
+                    className="w-full h-64 md:h-80 object-cover"
+                  />
+                </div>
+              </CarouselItem>
+
+              <CarouselItem>
+                <div className="relative overflow-hidden rounded-2xl shadow-2xl">
+                  <img
+                    src="/rashmi-wed-7.jpeg"
+                    alt=" - Memory 5"
+                    className="w-full h-64 md:h-80 object-cover"
+                  />
+                </div>
+              </CarouselItem>
+
+
+              <CarouselItem>
+                <div className="relative overflow-hidden rounded-2xl shadow-2xl">
+                  <img
+                    src="/rashmi-wed-8.jpeg"
+                    alt=" - Memory 5"
+                    className="w-full h-64 md:h-80 object-cover"
+                  />
+                </div>
+              </CarouselItem>
+
+
             </CarouselContent>
             <CarouselPrevious className="left-4" />
             <CarouselNext className="right-4" />
